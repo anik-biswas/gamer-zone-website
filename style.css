@@ -232,7 +232,7 @@ color: var(--first-color);
 /* main online play section*/
 .online-play {
    margin-top: 0px;
-   padding:40px 300px 0 120px ;
+   padding:0px 300px 0 120px ;
    display: flex;
    justify-content: space-between;
    
@@ -263,6 +263,27 @@ color: var(--first-color);
    color: #534C64;
    font-size: 16px;
    font-weight: 400;
+}
+ 
+.game-container {
+
+   padding: 0 240px;
+   display: grid;
+   grid-template-columns: repeat(5, 2fr);
+   row-gap: 20px;
+   column-gap: 25px;
+   
+}
+.game {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   
+}
+.game-name {
+   color: #0B0223;
+   font-size: 12px;
+   font-weight: 600;
 }
 
 @media screen and (max-width: 576px) {
@@ -380,6 +401,12 @@ color: var(--first-color);
   .play-image-container { 
     padding: 0 120px 0 70px ;
     top: 0px ;
+  }
+
+  .game-container {
+   padding: 0px 50px;
+   display: grid;
+   grid-template-columns: repeat(3,3fr);
   }
 
 }
