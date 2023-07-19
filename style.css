@@ -1,0 +1,62 @@
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+ 
+ * {
+    margin: 0px;
+ }
+ :root {
+    --second-color :#FF42A5 ;
+ }
+ 
+ body {
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ header {
+    padding: 20px 120px 20px 120px ;
+ }
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .nav-title-container {
+    display: flex;
+    gap: 1.5rem;
+ }
+ .nav-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223
+    
+ }
+
+.nav-title-color {
+    color: var(--second-color);
+}
+
+ nav >ul {
+    display: flex;
+    align-items: center;
+   
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+} 
+.nav-box {
+    display: flex;
+    border: 0;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgba(11, 2, 35, 0.10);
+}
