@@ -233,6 +233,32 @@ color: var(--first-color);
     padding: 0px 20px;
     text-align: center;
    }
+   .video-section {
+      margin-top: 40px;
+      padding: 0 50px;
+      align-items: center;
+   }
+   .image-card {
+      width: 80%;
+      height: 90%;
+      
+   }
+   .video-img-container {
+      display: grid;
+      grid-template-columns: repeat(1,4fr);
+      row-gap: 20px;
+      padding-left: 70px;
+   }
+   .video-section-title {
+      font-size: 30px;
+   }
+   .video-section-detail {
+      font-size: 15px;
+   }
+   .image-title {
+      font-size: 12px;
+      padding: 10px 70px 0px 20px;
+   }
  
 }
    
