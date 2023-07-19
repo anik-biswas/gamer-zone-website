@@ -11,6 +11,9 @@
 body {
    font-family: 'Work Sans', sans-serif;
 }
+.text-color {
+   color: #8a089976 ;
+}
 .btn-primary-1 {
    border: 0;
    border-radius: 30px;
@@ -186,6 +189,43 @@ color: var(--first-color);
    color: #534C64;
    font-size: 12px;
    font-weight: 500;
+   margin-top: 15px;
+}
+
+/* main instant play section*/
+.instant-play {
+    padding:40px 120px 0 300px ;
+    display: flex;
+    justify-content: space-between;
+}
+.instant-play-container {
+    position: relative;
+    top: 120px;
+    right: 100px;
+    
+}
+.instant-play-title {
+   text-align: right;
+   font-size: 40px;
+   font-weight: 700;
+}
+.instant-play-detail {
+   color: #534C64;
+   text-align: right;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.play-image-1 {
+   height: 400px;
+   width: 400px;
+}
+.play-image-2 {
+   height: 200px;
+   width: 150px;
+   position: relative;
+   top: -150px;
+   right: 40px;
 }
 
 @media screen and (max-width: 576px) {
@@ -257,7 +297,7 @@ color: var(--first-color);
    }
    .image-title {
       font-size: 12px;
-      padding: 10px 70px 0px 20px;
+      padding:  0px 70px 0px 20px;
    }
  
 }
